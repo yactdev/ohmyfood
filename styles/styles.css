@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.aling-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttom {
+  width: fit-content;
+  background-color: #ff79da;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Roboto";
+  /* Created with https://www.css-gradient.com */
+  background: #9456dc;
+  background: -webkit-linear-gradient(bottom, #9456dc, #ff79db);
+  background: -moz-linear-gradient(bottom, #9456dc, #ff79db);
+  background: linear-gradient(to top, #9456dc, #ff79db);
+  box-shadow: 1px 3px 10px grey;
+}
+
+.buttom:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+}
