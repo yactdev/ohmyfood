@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+body {
+  font-family: "Robot";
+}
 .aling-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.booking {
+  height: 15em;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .buttom {
@@ -27,4 +37,9 @@
 .buttom:hover {
   background-color: #fff;
   transform: scale(1.05);
+}
+
+.buttom a:link {
+  color: #fff;
+  text-decoration: none;
 }
