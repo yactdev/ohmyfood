@@ -39,7 +39,7 @@ body {
   transform: scale(1.05);
 }
 
-.buttom a:link {
+.buttom a {
   color: #fff;
   text-decoration: none;
 }
